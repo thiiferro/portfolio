@@ -1,7 +1,49 @@
-img{
-	height: 190px
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+body{
+	max-width: 1480px;
+	width: 500%;
+	height: 1050px;
+	background-image: linear-gradient(to top left,rgb(0,0,0),rgb(36, 36, 36),rgb(54, 54, 54));
+}
+
+img{
+	height: 300px
+}
+
+nav img {
+	height: 25px;
+}
+
+nav ul{
+	list-style-type: none;
+	background-color: none ;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	display: block;
+	height: 65px;
+}
+
+nav li{
+	float: left;
+}
+
+nav a:hover{
+	background-color: #838383;
+	
+}
+
 .container {
-	display: flex;
-	align-items: center;
+	text-align: center;
 }
