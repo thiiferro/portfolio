@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+
 body{
 	max-width: 1200px;
 	width: 100%;
@@ -59,7 +60,6 @@ nav li{
 	text-align: center;
 	color: white;
 	font-size: 16px;
-	font-family: DejaVu Sans Mono ;
 	position: absolute;
 	top: 30%;
 	left: 50%;
@@ -68,30 +68,30 @@ nav li{
 
 @media(max-width: 1480px){
 	.container{
-		widht: 1200px;
+		width: 1200px;
 	}
 }
 
 @media(max-width: 1200px){
 	.container{
-		widht: 1000px;
+		width: 1000px;
 	}
 }
 
 @media(max-width: 1024px){
 	.container{
-		widht: 700px;
+		width: 700px;
 	}
 }
 
 @media(max-width: 768px){
 	.container{
-		widht: 400px;
+		width: 400px;
 	}
 }
 
 @media(max-width: 425px){
 	.container{
-		widht: 320px;
+		width: 320px;
 	}
 }
