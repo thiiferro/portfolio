@@ -28,6 +28,20 @@ nav ul{
 	padding: 0;
 }
 
+nav ul li{
+	position: relative;
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+nav ul li after{
+	position: absolute;
+	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+nav ul li:hover{
+	transform:scale(1.25,1.25)
+}
+
 nav a{
 	color: white;
 	text-decoration: none;
@@ -40,21 +54,16 @@ nav li{
 	float: left;
 }
 
-nav a:hover{
-	font-size: 17px;
-	
-}
-
-nav img:hover {
-	height: 27px;
-}
 
 .container {
 	text-align: center;
 	color: white;
 	font-size: 16px;
 	font-family: DejaVu Sans Mono ;
-	font-align: center;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 @media(max-width: 1480px){
