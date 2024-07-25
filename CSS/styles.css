@@ -5,10 +5,10 @@
 }
 
 body{
-	max-width: 1480px;
-	width: 500%;
-	height: 1050px;
-	background-image: linear-gradient(to top left,rgb(0,0,0),rgb(36, 36, 36),rgb(54, 54, 54));
+	max-width: 1200px;
+	width: 100%;
+	height: 1200px;
+	background-image: linear-gradient(to top left,rgb(0,0,0),#221133);
 }
 
 img{
@@ -41,8 +41,12 @@ nav li{
 }
 
 nav a:hover{
-	background-color: #838383;
+	font-size: 17px;
 	
+}
+
+nav img:hover {
+	height: 27px;
 }
 
 .container {
@@ -50,4 +54,35 @@ nav a:hover{
 	color: white;
 	font-size: 16px;
 	font-family: DejaVu Sans Mono ;
+	font-align: center;
+}
+
+@media(max-width: 1480px){
+	.container{
+		widht: 1200px:
+	}
+}
+
+@media(max-width: 1200px){
+	.container{
+		widht: 1000px:
+	}
+}
+
+@media(max-width: 1024px){
+	.container{
+		widht: 700px:
+	}
+}
+
+@media(max-width: 768px){
+	.container{
+		widht: 400px:
+	}
+}
+
+@media(max-width: 425px){
+	.container{
+		widht: 320px:
+	}
 }
