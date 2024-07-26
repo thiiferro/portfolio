@@ -24,10 +24,18 @@ body{
 	color: white;
 }
 
+nav img{
+	height: 32px;
+    
+}
 
 img{
-	height: 530px;
+	height: 870px;
+    top: 30%;
+	left: 40%;
+	transform: translate(-50%,-50%) ;
 }
+
 
 
 nav ul{
@@ -72,14 +80,14 @@ nav li{
 }
 
 .conteudo{
-	height: 300px;
-	width: 350px;
+	height: 200px;
+	width: 300px;
 }
 
 .inicio{
 	font-size: 27px;
 	position: absolute;
-	top: 35%;
+	top: 13%;
 	left: 50%;
 	transform: translate(-50%,-50%) ;
 }
@@ -88,9 +96,17 @@ nav li{
 .c{
 	font-size: 23px;
 	position: absolute;
-	top: 90%;
-	left: 50%;
+	top: 57%;
+	left: 70%;
 	transform: translate(-50%,-50%) ;
+}
+
+.sobre{
+    display: flex;
+}
+
+p {
+    text-align: justify;
 }
 
 @media(max-width: 1480px){
