@@ -31,11 +31,7 @@ nav img{
 
 img{
 	height: 870px;
-    top: 30%;
-	left: 40%;
-	transform: translate(-50%,-50%) ;
 }
-
 
 
 nav ul{
@@ -93,16 +89,24 @@ nav li{
 }
 
 
+
+.sobre{
+    display: flex;
+}
+
+.img{
+    position: absolute;
+	top: 57%;
+	left: 30%;
+	transform: translate(-50%,-50%) ;
+}
+
 .c{
 	font-size: 23px;
 	position: absolute;
 	top: 57%;
 	left: 70%;
 	transform: translate(-50%,-50%) ;
-}
-
-.sobre{
-    display: flex;
 }
 
 p {
