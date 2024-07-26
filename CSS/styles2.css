@@ -7,7 +7,7 @@
 
 
 body{
-	height: 800px;
+	height: 600px;
 	max-width: 1200px;
 	width: 100%;
 	min-height: 100vh;
@@ -70,7 +70,6 @@ nav li{
 
 
 .container {
-	text-align: center;
 	color: white;
 	font-size: 16px;
 }
@@ -94,10 +93,10 @@ nav li{
     display: flex;
 }
 
-.img{
-    position: absolute;
-	top: 57%;
-	left: 30%;
+img{
+    position: relative;
+    top: 65%;
+	left: 60%;
 	transform: translate(-50%,-50%) ;
 }
 
@@ -141,7 +140,7 @@ p {
 	.container{
 		flex-wrap: wrap;
 	}
-	.menu, .inicio, .c{
+	.menu, .inicio, .imagem, .c{
 		display: block;
 	}
 }
