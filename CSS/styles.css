@@ -11,7 +11,7 @@ body{
 	max-width: 1200px;
 	width: 100%;
 	min-height: 100vh;
-	background-image: linear-gradient(to top left,rgb(0,0,0),#221133);
+	background-color: rgb(15, 15, 15);
 }
 
 .menu{
